@@ -3,6 +3,6 @@
   "package": "kr.reversegravity.mixin",
   "compatibilityLevel": "JAVA_25",
   "mixins": ["PlayerMixin"],
-  "client": ["CameraMixin", "PlayerRendererMixin"],
+  "client": ["CameraMixin"],
   "injectors": { "defaultRequire": 1 }
 }
