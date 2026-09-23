@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "reversegravity",
+  "version": "${version}",
+  "name": "Reverse Gravity",
+  "description": "Turns player gravity upside down.",
+  "authors": ["Moon"],
+  "license": "CC0-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["kr.reversegravity.ReverseGravityMod"],
+    "client": ["kr.reversegravity.ReverseGravityClient"]
+  },
+  "mixins": ["reversegravity.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
